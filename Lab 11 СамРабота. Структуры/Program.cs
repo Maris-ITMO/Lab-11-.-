@@ -10,7 +10,7 @@ namespace Lab_11_СамРабота._Структуры
     {
         static void Main(string[] args)
         {
-            LinearEquation eq = new LinearEquation { k = 2, b =  };
+            LinearEquation eq = new LinearEquation { k = 2, b = -3};
             double root = eq.Root();
             Console.WriteLine("Root: " + root);            
             Console.ReadKey();
